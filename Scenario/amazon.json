@@ -1,0 +1,48 @@
+{
+  "item_id": "SHIRT-123456",
+  "title": "Men's Slim Fit Cotton Casual Shirt",
+  "brand": "Levi's",
+  "category": {
+    "main": "Clothing",
+    "sub": "Men",
+    "type": "Shirts"
+  },
+  "attributes": {
+    "style_code": "LV-MC-2025",
+    "color": "Navy Blue",
+    "material": "100% Cotton",
+    "gender": "Men",
+    "fit_type": "Slim Fit",
+    "waterproof": false,
+    "wrinkle_free": true
+  },
+  "country_of_origin": "India",
+  "pricing": {
+    "currency": "INR",
+    "mrp": 1999,
+    "selling_price": 1299,
+    "discount_percent": 35
+  },
+  "inventory": {
+    "stock_count": 120,
+    "warehouses": [
+      {
+        "location": "Mumbai",
+        "available_qty": 60
+      },
+      {
+        "location": "Delhi",
+        "available_qty": 60
+      }
+    ]
+  },
+  "images": [
+    "https://example.com/images/shirt-front.jpg",
+    "https://example.com/images/shirt-back.jpg",
+    "https://example.com/images/shirt-detail.jpg"
+  ],
+  "rating": {
+    "avg_rating": 4.3,
+    "total_reviews": 245
+  }
+}
