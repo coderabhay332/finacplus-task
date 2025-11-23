@@ -1,0 +1,23 @@
+﻿PORTFOLIO SYSTEM HIGH-LEVEL DESIGN:
+
+Architecture Overview:
+Users access their portfolio through a web/mobile UI via API Gateway, which triggers a Lambda-based Portfolio Service.
+
+Data Sources:
+- Amazon RDS: Stores user holdings
+- DynamoDB: Stores latest asset prices
+- ElastiCache: Returns real-time portfolio values with low latency
+
+Price Refresh Mechanism:
+- EventBridge Scheduler triggers price refresh every 10 minutes
+- Price Fetcher Lambda gathers prices from multiple data sources
+- Updates DynamoDB with latest prices
+- Portfolio Calculator Lambda recalculates total portfolio values
+- Updates both RDS and ElastiCache with new values
+
+Key Characteristics:
+ Low latency response times
+ Real-time portfolio updates
+ High reliability and fault tolerance
+ Scalable for 250+ users
+ Event-driven architecture ensures consistency

@@ -1,0 +1,30 @@
+﻿AMAZON PRODUCT METADATA USE CASES:
+
+1. Search + Filters
+   - Enables filtering by size, color, brand, category etc.
+   - Helps products appear in relevant search queries.
+
+2. Personalization
+   - Shows results that match user's history
+   - Example: Customer mostly buys Slim-Fit Navy Shirts  rank similar items higher
+
+3. Demand Forecasting
+   - When launching a new shirt with no sales history, forecasting uses metadata similarity (brand, color, fit) to predict demand
+   - Solves the cold-start problem
+
+4. Inventory Planning
+   - Warehouse stocking decisions based on metadata trends
+   - Example: Men Slim Cotton sells more in Bangalore
+
+5. Recommendation Systems
+   - Used for "Similar products" suggestions
+   - Used for "Frequently viewed together" recommendations
+
+6. Catalog Consistency
+   - Maintains product grouping
+   - De-duplicates products
+   - Maintains variant structure
+
+7. Supply Chain Optimization
+   - Helps route items to correct fulfillment centers
+   - Separates Men's clothing vs Women's clothing etc.
