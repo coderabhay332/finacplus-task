@@ -1,6 +1,6 @@
 # Case Study – Approach Summary
 
-This document explains the approach and reasoning behind each deliverable in the Backend Intern case study.
+This document explains the approach and reasoning behind each deliverable in the Backend Intern case study. I would highly recommend to checkout the notion link for the better structure.
 
 ---
 
